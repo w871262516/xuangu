@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html style="font-size:90px ;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>pro</title>
+    <!--<link rel="stylesheet" href="static/index.css">-->
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script>   
+		var box = document.getElementById("box")
+		var doc = document.documentElement;
+		var curDeviceWidth = doc.clientWidth || window.innerWidth;
+		doc.style.fontSize = curDeviceWidth * (90 / 1920) + 'px';
+  </script>
+</html>
